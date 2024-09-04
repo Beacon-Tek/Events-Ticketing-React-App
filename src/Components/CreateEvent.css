@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+}
+
+.Create-Event-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top:10px;
+    height: 303px;
+    width: 100%;
+}
+
+.Create-event-rectangle{
+    display:inline-block;
+    width: 100%;
+    height: 252px;
+    background-color: rgba(238, 225, 255, 1);
+    position: relative;
+    margin-top: 52px;    
+}
+
+.Create-Event-div img{
+    display: inline-block;
+    width: 544.67px;
+    height: 303px;
+    margin-left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 999;
+    position: absolute;
+}
+
+.Make-your-own-event{
+    display: inline-block;
+    height: 182px;
+    margin-left: 696px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.Create-Event-div h3{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.27px;
+    text-align: left;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 1);   
+}
+
+.Create-Event-div p{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    color: rgba(39, 39, 39, 1);   
+    margin-bottom: 15px; 
+}
+
+.Create-Event-div a{
+    background-color: red;
+    color: white; 
+    padding: 20px 80px;
+    border-radius: 50px;
+    text-decoration: none;
+    float:left;
+}
+
+@media(max-width:400px){
+
+.Create-Event-div{
+    flex-direction: column;
+    height: 606px;
+}
+
+.Create-event-rectangle{
+    display:block; 
+    height: 230px; 
+}
+
+.Create-Event-div img{
+    display: block;
+    width: 90%;
+    height: 280px;
+    margin: 0px 30px;
+}
+
+.Make-your-own-event{
+    display:block;
+    height: 182px;
+    margin: 0 25px;
+    position: absolute;
+    top:220px;
+    width:90%
+}
+
+.Create-Event-div h3{
+    text-align: Center;
+}
+
+.Create-Event-div p{
+    text-align: Center;
+    margin-bottom:35px;
+}
+
+.Create-Event-div a{
+    float:none;
+}
+
+}
+
+
+
+
