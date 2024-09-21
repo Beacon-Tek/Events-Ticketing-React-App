@@ -1,7 +1,10 @@
 import React from "react";
 import './Footer.css';
 import logo from '../assets/logo.png';
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {faHome} from '@fortawesome/fontawesome-svg-core';
+
+
 
 function Footer(){
     return(
@@ -12,11 +15,10 @@ function Footer(){
                     <p>Eventick is a global self-service ticketing platform for live experiences that allows anyone 
                         to create, share, find and attend events that fuel their passions and enrich their lives.
                     </p>
-                    <div className="social-handles">
-                    <i class="fa-regular fa-user"></i>
-                    
-                    </div>
-                  
+                    {/* <FontAwesomeIcon icon={faHome} />    */}
+                    <i className="fa fa-facebook"></i>  
+                    <i className='fa fa-twitter'></i>
+                    <i className='fa fa-linkedin'></i>         
                 </div>
                 <div className="top2">
                     <p>Plan Events</p>
@@ -55,6 +57,7 @@ function Footer(){
                         </form>
                         <a className="subscription-btn" href="">Subscribe Now</a>
                     </div>
+                    <a className="subscription-btn2" href="">Subscribe Now</a>
                 </div>
            </div>
            <div className="footer-bottom">

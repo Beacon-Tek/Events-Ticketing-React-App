@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin-top:10px;
     height: 303px;
     width: 100%;
@@ -17,6 +18,7 @@ body{
     height: 252px;
     background-color: rgba(238, 225, 255, 1);
     position: relative;
+    margin:0 auto;
     margin-top: 52px;    
 }
 
@@ -68,11 +70,100 @@ body{
     float:left;
 }
 
+@media(max-width:1000px){
+
+    .Create-Event-div{
+        flex-direction: column;
+        height: 550px;
+    }
+    
+    .Create-event-rectangle{
+        display:block; 
+        height: 230px; 
+    }
+    
+    .Create-Event-div img{
+        display: block;
+        width: 90%;
+        height: 280px;   
+        margin: 0px 30px;
+    }
+    
+    .Make-your-own-event{
+        display:block;
+        height: 182px;
+        margin: 0 25px;
+        position: absolute;
+        top:220px;
+        width:90%
+    }
+    
+    .Create-Event-div h3{
+        text-align: Center;
+    }
+    
+    .Create-Event-div p{
+        text-align: Center;
+        margin-bottom:35px;
+    }
+    
+    .Create-Event-div a{
+        float:none;
+    }
+    
+
+}
+
+
+@media(max-width:768px){
+
+    .Create-Event-div{
+        flex-direction: column;
+        height: 550px;
+    }
+    
+    .Create-event-rectangle{
+        display:block; 
+        height: 230px; 
+    }
+    
+    .Create-Event-div img{
+        display: block;
+        width: 90%;
+        height: 280px;   
+        margin: 0px 30px;
+    }
+    
+    .Make-your-own-event{
+        display:block;
+        height: 182px;
+        margin: 0 25px;
+        position: absolute;
+        top:220px;
+        width:90%
+    }
+    
+    .Create-Event-div h3{
+        text-align: Center;
+    }
+    
+    .Create-Event-div p{
+        text-align: Center;
+        margin-bottom:35px;
+    }
+    
+    .Create-Event-div a{
+        float:none;
+    }
+    
+
+}
+
 @media(max-width:400px){
 
 .Create-Event-div{
     flex-direction: column;
-    height: 606px;
+    height: 550px;
 }
 
 .Create-event-rectangle{
@@ -83,7 +174,7 @@ body{
 .Create-Event-div img{
     display: block;
     width: 90%;
-    height: 280px;
+    height: 280px;   
     margin: 0px 30px;
 }
 

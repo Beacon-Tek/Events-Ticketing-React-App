@@ -7,6 +7,7 @@ import Partners from './Components/Partners';
 import Blog from './Components/Blog';
 import Footer from './Components/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
       <CreateEvent />
       <Partners /> 
       <Blog />  
-      <Footer />   
+      <Footer />        
     </div>
   );
 }

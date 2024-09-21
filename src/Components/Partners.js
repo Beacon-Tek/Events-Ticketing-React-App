@@ -23,7 +23,7 @@ function Partners(){
                 <img  src={brand5} alt="brands that Web Event ticketing has worked with" />                
             </div>  
             <div className="images-div2">
-                <img  src={brand6} alt="brands that Web Event ticketing has worked with" />
+                <img  id="medium" src={brand6} alt="brands that Web Event ticketing has worked with" />
                 <img  src={brand7} alt="brands that Web Event ticketing has worked with" />
                 <img  src={brand8} alt="brands that Web Event ticketing has worked with" />
                 <img  src={brand9} alt="brands that Web Event ticketing has worked with" />

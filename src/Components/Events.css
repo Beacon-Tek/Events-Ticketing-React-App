@@ -160,6 +160,66 @@ body{
     align-items:center; 
 }
 
+@media(max-width:1000px){
+    #Events-div{
+        margin: 150px 20px 20px 20px; /*edit*/
+    }
+
+   .Events-flex1 h1{
+        text-align: center;
+    }
+
+    .Events-flex1{ 
+        flex-direction: column; 
+        background-color: rgb(187, 189, 228);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .Events-flex1 h1{
+        font-size: 30px;
+        font-weight: 700; 
+        margin:3px auto 8px auto;
+}
+}
+
+@media(max-width:768px){
+    #Events-div{
+        margin: 150px 20px 20px 20px; /*edit*/
+    }
+
+   .Events-flex1 h1{
+        text-align: center;
+    }
+
+    .Events-flex1{ 
+        flex-direction: column; 
+        background-color: rgb(187, 189, 228);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .Events-flex1 h1{
+        font-size: 30px;
+        font-weight: 700; 
+        margin:3px auto 8px auto;
+}
+}
+@media(max-width:560px){  
+    
+    .form-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;    
+    }
+    
+    .form-control{  
+        margin: 5px auto;
+        padding: 10px 30px;
+    } 
+}
+
 @media(max-width:400px){
     
 #Events-div{
@@ -194,13 +254,14 @@ body{
 .Events-flex2{
     flex-direction: column;   
     margin-top:5px;
-    width: 100%;
+    width: 95%;
     background-color: (131, 133, 247);
 }
 
 .Events-box{
-    width: 90%; 
+    width: 95%; 
     margin: 0 auto;
+    margin-left: 20px;
 }
 
 .Events-box img{   
@@ -223,7 +284,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:flex-start;    
-    padding: 0;
+    padding: 0px;
 }
 
 .Date{

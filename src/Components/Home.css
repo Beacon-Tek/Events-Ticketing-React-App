@@ -34,9 +34,11 @@ body{
     height: 41px;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;   
     list-style: none;
     margin-top:30px;
+    position: relative;
+    
 }
 
 .Home nav ul li a {
@@ -57,13 +59,58 @@ body{
     Gap:10px;
 }
 
+#hamburger{
+    display: none;
+    position: absolute;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    right: 30px;
+    top: 30px;
+    z-index: 99;
+}
+
+#close{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.sidebar ul{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    right: 0px;     
+    backdrop-filter: -10px 10px 10px;
+    background-color: rgb(109, 19, 104);
+    
+}
+
+.sidebar ul li{ 
+    list-style: none;
+    padding: 15px 5px;
+    background-color: rgb(109, 19, 104);    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align:left;
+    font-size: 14px;
+}
+
 .Home-img-div{
     display: flex;
     flex-direction: row;
     justify-content: left;
     margin-left: 100px; 
     margin-top: 95px;
-    width: 90%;
+    width: 100%;
 }
 
 .Home-img-div img{
@@ -72,7 +119,8 @@ body{
 }
 
 #Home-text-div{
-    margin:70px;
+    margin-left:4rem;
+    overflow-x: collapse; 
 }
 
 .Home h1{
@@ -88,7 +136,6 @@ body{
     text-align: left;
 }
 
-
 .Home-1-a{
     border: 1.5px solid red;
     border-radius: 50px;
@@ -97,9 +144,8 @@ body{
     padding: 14px 40px;
     color: white;
     text-decoration: none;
-    margin-right: 15px;
-    background-color: red;  
-     
+    margin-right: 10px;
+    background-color: red;      
 }
 
 .Home-1-b{
@@ -110,43 +156,27 @@ body{
     padding: 14px 40px;
     color: white;
     text-decoration: none;
-    margin-right: 40px;
-    
+    margin: auto;    
 }
 
-@media(max-width: 400px){
-
-.Home{ 
-    width:100%; 
-    height: 1100px; /*edit*/
-}
-
-.Home nav ul{
-    display: none;
-}
-
-.Home-img-div{
-    display: flex;
-    flex-direction: column;
+@media(max-width: 1160px){
+  .Home-img-div{  
     justify-content: flex-start;
-    margin-left: 0px; 
-    margin-top: 8px;
-    width: 100%;
-}
-
-.Home-img-div img{
-    width: 90%;
-    height: 230px;
     margin: 0 auto;
+    margin-top:50px;
+    margin-left: 0px;    
 }
 
 #Home-text-div{
-    margin:30px;
+    margin-left:0px;
+    margin-top: 30px;
+    width: 50%
 }
 
 .Home h1{
+    width:80%;
     color: white;
-    margin: 0px;
+    margin: 0 auto;
     text-align: Center;
 }
 
@@ -159,12 +189,184 @@ body{
 }
 
 .Home-1-a, .Home-1-b{   
-    margin-right: 0px;
+    margin: 0 auto;
     display: block;
     padding-bottom: 0px;
     height: 40px;
     margin-top: 15px;
-  
+    width: 90px;  
+}
+
+}
+
+@media(max-width: 1000px){
+
+.Home{ 
+    width:100%; 
+    height: 1050px; /*edit*/
+}
+
+.Home-img-div{  
+    flex-direction: column;   
+    margin: 0px auto; 
+    margin-top: 8px;
+    width: 95%;
+}
+
+.Home-img-div img{
+    width: 90%;
+    height: 230px;
+    margin: 0 auto;
+}
+
+#Home-text-div{
+    margin:0 auto;  
+}
+
+.Home-img-div{  
+    flex-direction: column;   
+    margin: 0px auto; 
+    margin-top: 8px;
+    width: 95%;
+}
+
+.Home-img-div img{
+    width: 90%;
+    height: 380px;
+    margin: 0 auto;
+}
+
+}
+
+@media(max-width: 768px){
+    .Home{ 
+    width:100%; 
+    height: 1050px; /*edit*/
+}
+
+.Home nav ul{
+    display: none;
+}
+
+#hamburger{
+    display: block;
+    margin: 0px;
+    padding: 5px;
+}
+
+.sidebar ul{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 999;     
+}
+
+.Home-img-div{  
+    flex-direction: column;   
+    margin: 0px auto; 
+    margin-top: 8px;
+    width: 95%;
+}
+
+.Home-img-div img{
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+}
+
+#Home-text-div{
+    width: 100%;
+    margin:0 auto;  
+}
+
+.Home h1{
+    width:80%;
+    color: white;
+    margin: 0 auto;
+    text-align: Center;
+}
+
+.Home p{
+    color: white;
+    margin: 30px auto;
+    text-align: Center;
+    line-height: 28px;
+    width: 80%;
+}
+
+.Home-1-a, .Home-1-b{   
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 0px;
+    height: 40px;
+    margin-top: 15px;  
+}
+
+}
+
+@media(max-width: 400px){
+
+.Home{ 
+    width:100%; 
+    height: 1020px; /*edit*/
+}
+
+.Home nav ul{
+    display: none;
+}
+
+#hamburger{
+    display: block;
+    margin: 0px;
+    padding: 5px;
+}
+
+.sidebar ul{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 999;     
+}
+
+.Home-img-div{  
+    flex-direction: column;   
+    margin: 0px auto; 
+    margin-top: 8px;
+    width: 95%;
+}
+
+.Home-img-div img{
+    width: 90%;
+    height: 230px;
+    margin: 0 auto;
+}
+
+#Home-text-div{
+    margin:0 auto;
+    width: 83%;  
+}
+
+.Home h1{
+    width:100%;
+    color: white;
+    margin: 0 auto;
+    text-align: Center;
+}
+
+.Home p{
+    color: white;
+    margin: 30px auto;
+    text-align: Center;
+    line-height: 28px;
+    width: 100%;
+}
+
+.Home-1-a, .Home-1-b{   
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 0px;
+    height: 40px;
+    margin-top: 15px;  
 }
 
 }
