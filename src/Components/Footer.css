@@ -172,9 +172,7 @@ body{
         font-size: small;
         text-align: center; 
         margin-top: 10px;
-    }
-
-   
+    } 
 }
 
 @media(max-width: 768px){
@@ -183,10 +181,9 @@ body{
     }    
 
     .footer-div{
-        margin-top: 970px;
+        margin-top: 550px;
     }
     
-
     .footer-top{
         flex-direction: column;    
         margin-top: 40px;
@@ -270,8 +267,13 @@ body{
         margin: 0px auto;
         border: 1px solid rgba(76, 77, 139, 1)
     }
-
 }
+
+@media(max-width: 722px){
+    .footer-div{
+        margin-top: 970px;
+    }
+    }
 
 @media(max-width: 400px){
     body{
@@ -327,16 +329,14 @@ body{
     .subscription a{ 
         display: flex;  
         padding: 15px 20px;
-        width: 95px;      
+        width: 100%;      
         text-align: center;
         font-size: x-small;    
     }
 
     .subscription-btn2{
         display: none;
-    }
-
-   
+    } 
       
     .form{
         border: none;
@@ -350,8 +350,7 @@ body{
         flex-direction: column;
         justify-content: center;
     }
-    
-    
+        
     .footer-bottom{
         margin-top: 50px;
     }
@@ -366,7 +365,8 @@ body{
         margin: 0px auto;
         border: 1px solid rgba(76, 77, 139, 1)
     }
-}
+
+    }
 
 
 

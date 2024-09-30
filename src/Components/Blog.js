@@ -33,7 +33,7 @@ function Blog(){
                 </div>
             </div>
             <div className="blog-button">
-                <a href="#">Load More</a>
+                <a href="">Load More</a>
             </div>                 
         </div>
     );

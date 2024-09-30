@@ -13,7 +13,7 @@ function CreateEvent(){
                     <a href="home.js" >Create Events</a>
                 </div>
             </div>
-            <img src={CEvent} alt="logo"/>   
+            <img src={CEvent} alt=""/>   
         </div> 
     );
 }

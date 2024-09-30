@@ -47,7 +47,7 @@ function Events(){
 
                 <div className="Events-box">
 
-                    <img src={box1}  alt="logo"/>
+                    <img src={box1}  alt=""/>
                     <div className="box-text">
 
                         <div className="Date-Event">
@@ -177,7 +177,7 @@ function Events(){
                 </div>
             </div>
             <div className="Events-learn-more-box">
-                <a className="learn-more-btn" href="#">Learn More</a>
+                <a href="" className="learn-more-btn" >Learn More</a>
             </div>                    
         </div>                     
     );

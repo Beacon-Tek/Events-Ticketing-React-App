@@ -218,6 +218,18 @@ body{
         margin: 5px auto;
         padding: 10px 30px;
     } 
+
+    .Events-flex2{
+        flex-direction: column;   
+        margin-top:5px;
+        width: 100%;
+        background-color: (131, 133, 247);
+    }
+
+    .Events-box{
+        width: 95%; 
+        margin: 0 auto;    
+    }
 }
 
 @media(max-width:400px){
@@ -355,6 +367,10 @@ body{
 
 }
 
-
-
+@media(max-width:368px){
+    
+    #Events-div{
+       margin: 270px 0px 0px 0px; /*edit*/
+    }
+}
 

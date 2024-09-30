@@ -18,9 +18,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 95%;
     height: 70px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .Home nav img{
@@ -36,13 +36,13 @@ body{
     flex-direction: row;
     justify-content: space-between;   
     list-style: none;
+    margin-right: 0px;
     margin-top:30px;
-    position: relative;
-    
+    position: relative;    
 }
 
-.Home nav ul li a {
-    color: white;
+.Home nav ul li a{
+    color: white; 
     text-decoration: none;
     font-family: DM sans;
     font-weight: 400;
@@ -58,6 +58,7 @@ body{
     padding: 8px 28px;
     Gap:10px;
 }
+
 
 #hamburger{
     display: none;
@@ -87,8 +88,7 @@ body{
     top: 0px;
     right: 0px;     
     backdrop-filter: -10px 10px 10px;
-    background-color: rgb(109, 19, 104);
-    
+    background-color: rgb(109, 19, 104);    
 }
 
 .sidebar ul li{ 

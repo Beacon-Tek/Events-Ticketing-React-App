@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Home from './Components/Home';
 import Searchbox from './Components/Searchbox';
@@ -7,17 +8,16 @@ import Partners from './Components/Partners';
 import Blog from './Components/Blog';
 import Footer from './Components/Footer';
 
-
 function App() {
-  return (
-    <div className="App">
-      <Home />
-      <Searchbox />
-      <Events />
-      <CreateEvent />
-      <Partners /> 
-      <Blog />  
-      <Footer />        
+  return (   
+    <div className="App">  
+        <Home />      
+        <Searchbox />
+        <Events />
+        <CreateEvent />
+        <Partners />
+        <Blog />
+        <Footer />     
     </div>
   );
 }
