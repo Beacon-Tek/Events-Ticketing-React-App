@@ -177,7 +177,7 @@ function Events(){
                 </div>
             </div>
             <div className="Events-learn-more-box">
-                <a href="" className="learn-more-btn" >Learn More</a>
+                <a href="#c" className="learn-more-btn" >Learn More</a>
             </div>                    
         </div>                     
     );

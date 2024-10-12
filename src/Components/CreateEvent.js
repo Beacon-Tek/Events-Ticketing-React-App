@@ -10,7 +10,7 @@ function CreateEvent(){
                     <p>Lorem ipsum dolor sit amet, consectetur<br />
                     adipiscing elit.
                     </p>
-                    <a href="home.js" >Create Events</a>
+                    <a href="#c" >Create Events</a>
                 </div>
             </div>
             <img src={CEvent} alt=""/>   

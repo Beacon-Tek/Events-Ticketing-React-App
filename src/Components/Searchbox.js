@@ -6,7 +6,7 @@ function Searchbox(){
         <div className="search-box-content-div">
             <div className="search-box-content">
                 <p>Event</p>
-                <form action="#" method="get">
+                <form action="" method="get">
                     <select className="form-design">
                         <option value="Konsar jazz">Konsar jazz</option>
                     </select>
@@ -14,7 +14,7 @@ function Searchbox(){
             </div>
             <div className="search-box-content">
                 <p>Place</p>
-                <form action="#" method="get">
+                <form action="" method="get">
                     <select className="form-design">
                         <option value="Indonesia">Indonesia</option>
                     </select>
@@ -22,7 +22,7 @@ function Searchbox(){
             </div>
             <div className="search-box-content">
                 <p>Time</p>
-                <form action="#" method="get">
+                <form action="" method="get">
                     <select className="form-design">
                         <option value="Konsar jazz">Any date</option>
                     </select>
